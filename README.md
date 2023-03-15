@@ -30,15 +30,15 @@ sh run-bench.sh -g
 > vgg16（单位：ms）
 
 - big cores
-  - 1 threads: 204.38
-  - 2 threads: 111.41
-  - 3 threads: 93.08
-  - 4 threads: 88.59
+  - 1 threads: 189.97
+  - 2 threads: 101.54
+  - 3 threads: 79.57
+  - 4 threads: 66.87
 - small cores
   - 1 threads: 967.18
   - 2 threads: 456.20
   - 3 threads: 312.41
-  - 4 threads: 
+  - 4 threads: 225.84
 - gpu（stable）
   - 1 big threads: 70.18
   - 2 big threads: 69.95

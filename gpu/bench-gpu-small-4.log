@@ -1,0 +1,43 @@
+[0 Mali-G610]  queueC=0[2]  queueG=0[2]  queueT=0[2]
+[0 Mali-G610]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 Mali-G610]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 Mali-G610]  subgroup=16  basic=1  vote=1  ballot=1  shuffle=1
+g_vkdev=0xb4000076cfa0d470
+loop_count = 8
+num_threads = 4
+powersave = 1
+gpu_device = 0
+cooling_down = 0
+          squeezenet  min =    8.21  max =   10.92  avg =    9.48
+     squeezenet_int8  min =   15.86  max =   16.04  avg =   15.92
+           mobilenet  min =   20.84  max =   23.26  avg =   21.79
+      mobilenet_int8  min =   15.69  max =   16.41  avg =   15.88
+        mobilenet_v2  min =   29.82  max =   35.02  avg =   32.03
+        mobilenet_v3  min =   12.11  max =   19.31  avg =   15.80
+          shufflenet  min =   11.92  max =   16.64  avg =   14.10
+       shufflenet_v2  min =   11.05  max =   14.06  avg =   12.31
+             mnasnet  min =   16.26  max =   26.82  avg =   19.68
+     proxylessnasnet  min =   18.52  max =   26.71  avg =   21.26
+   efficientnetv2_b0  min =  114.18  max =  117.19  avg =  115.13
+        regnety_400m  min =   22.90  max =   29.32  avg =   26.19
+           blazeface  min =    5.62  max =    5.75  avg =    5.68
+           googlenet  min =   36.18  max =   55.49  avg =   41.67
+      googlenet_int8  min =   61.48  max =   62.20  avg =   61.75
+            resnet18  min =   23.75  max =   27.89  avg =   26.30
+       resnet18_int8  min =   56.74  max =   58.32  avg =   57.25
+             alexnet  min =   16.84  max =   18.55  avg =   18.02
+               vgg16  min =   68.56  max =   72.79  avg =   70.82
+          vgg16_int8  min =  310.35  max =  313.87  avg =  312.07
+            resnet50  min =   46.18  max =   59.44  avg =   54.31
+       resnet50_int8  min =   99.33  max =  100.83  avg =  100.00
+      squeezenet_ssd  min =   30.66  max =   38.62  avg =   33.13
+ squeezenet_ssd_int8  min =   72.74  max =   73.77  avg =   73.15
+       mobilenet_ssd  min =   25.53  max =   41.02  avg =   31.53
+  mobilenet_ssd_int8  min =   44.10  max =   44.97  avg =   44.47
+      mobilenet_yolo  min =   47.09  max =   51.23  avg =   49.16
+  mobilenetv2_yolov3  min =   41.96  max =   43.86  avg =   42.93
+         yolov4-tiny  min =   71.33  max =   99.80  avg =   80.82
+           nanodet_m  min =   25.75  max =   37.48  avg =   34.12
+    yolo-fastest-1.1  min =   20.92  max =   21.45  avg =   21.04
+      yolo-fastestv2  min =   15.94  max =   19.06  avg =   17.81
+Aborted

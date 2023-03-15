@@ -1,0 +1,40 @@
+loop_count = 8
+num_threads = 3
+powersave = 2
+gpu_device = -1
+cooling_down = 1
+          squeezenet  min =    7.53  max =    7.78  avg =    7.66
+     squeezenet_int8  min =    8.97  max =    9.19  avg =    9.04
+           mobilenet  min =    9.99  max =   10.21  avg =   10.10
+      mobilenet_int8  min =    6.39  max =    8.83  avg =    6.99
+        mobilenet_v2  min =    9.91  max =   10.02  avg =    9.95
+        mobilenet_v3  min =    5.50  max =    7.82  avg =    6.23
+          shufflenet  min =    5.58  max =    5.66  avg =    5.62
+       shufflenet_v2  min =    4.77  max =    4.82  avg =    4.79
+             mnasnet  min =    5.60  max =    7.24  avg =    6.54
+     proxylessnasnet  min =    6.71  max =    8.73  avg =    7.43
+     efficientnet_b0  min =   12.82  max =   13.07  avg =   12.95
+   efficientnetv2_b0  min =   22.25  max =   22.45  avg =   22.33
+        regnety_400m  min =   11.63  max =   11.72  avg =   11.67
+           blazeface  min =    1.88  max =    1.94  avg =    1.89
+           googlenet  min =   23.01  max =   23.54  avg =   23.39
+      googlenet_int8  min =   22.42  max =   22.52  avg =   22.47
+            resnet18  min =   24.80  max =   25.29  avg =   24.97
+       resnet18_int8  min =   22.56  max =   22.64  avg =   22.60
+             alexnet  min =   21.25  max =   21.48  avg =   21.32
+               vgg16  min =   92.81  max =   93.37  avg =   93.08
+          vgg16_int8  min =  175.65  max =  192.92  avg =  185.93
+            resnet50  min =   39.75  max =   40.04  avg =   39.89
+       resnet50_int8  min =   45.26  max =   45.57  avg =   45.36
+      squeezenet_ssd  min =   22.53  max =   23.17  avg =   22.82
+ squeezenet_ssd_int8  min =   25.29  max =   25.78  avg =   25.46
+       mobilenet_ssd  min =   19.13  max =   25.25  avg =   19.95
+  mobilenet_ssd_int8  min =   15.41  max =   15.58  avg =   15.47
+      mobilenet_yolo  min =   39.64  max =   39.88  avg =   39.75
+  mobilenetv2_yolov3  min =   25.53  max =   25.62  avg =   25.57
+         yolov4-tiny  min =   36.90  max =   37.84  avg =   37.64
+           nanodet_m  min =   12.21  max =   12.47  avg =   12.35
+    yolo-fastest-1.1  min =    5.90  max =    5.96  avg =    5.93
+      yolo-fastestv2  min =    5.83  max =    6.24  avg =    5.97
+FATAL ERROR! unlocked pool allocator get wild 0xb400007288655090
+Aborted

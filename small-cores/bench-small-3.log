@@ -1,0 +1,38 @@
+loop_count = 8
+num_threads = 3
+powersave = 1
+gpu_device = -1
+cooling_down = 1
+          squeezenet  min =   20.64  max =   20.94  avg =   20.83
+     squeezenet_int8  min =   23.18  max =   23.86  avg =   23.44
+           mobilenet  min =   28.93  max =   29.24  avg =   29.08
+      mobilenet_int8  min =   23.29  max =   24.43  avg =   23.58
+        mobilenet_v2  min =   22.83  max =   22.97  avg =   22.90
+        mobilenet_v3  min =   18.47  max =   19.18  avg =   18.76
+          shufflenet  min =   15.20  max =   15.61  avg =   15.36
+       shufflenet_v2  min =   13.56  max =   13.94  avg =   13.74
+             mnasnet  min =   19.83  max =   20.15  avg =   19.93
+     proxylessnasnet  min =   25.50  max =   26.74  avg =   25.81
+   efficientnetv2_b0  min =   58.50  max =   58.81  avg =   58.69
+        regnety_400m  min =   33.93  max =   34.47  avg =   34.15
+           blazeface  min =    7.67  max =    7.72  avg =    7.69
+           googlenet  min =   82.04  max =   84.41  avg =   83.00
+      googlenet_int8  min =   77.29  max =   77.96  avg =   77.61
+            resnet18  min =   54.20  max =   55.42  avg =   54.71
+       resnet18_int8  min =   72.23  max =   73.30  avg =   72.74
+             alexnet  min =   72.41  max =   74.94  avg =   73.97
+               vgg16  min =  298.48  max =  328.32  avg =  312.41
+          vgg16_int8  min =  399.34  max =  496.66  avg =  435.38
+            resnet50  min =  137.88  max =  139.68  avg =  138.56
+       resnet50_int8  min =  150.45  max =  157.22  avg =  151.88
+      squeezenet_ssd  min =   78.99  max =   81.09  avg =   79.91
+ squeezenet_ssd_int8  min =   85.36  max =   87.82  avg =   86.49
+       mobilenet_ssd  min =   68.58  max =   69.75  avg =   68.95
+  mobilenet_ssd_int8  min =   54.86  max =   56.28  avg =   55.37
+      mobilenet_yolo  min =  151.95  max =  153.30  avg =  152.88
+  mobilenetv2_yolov3  min =   88.55  max =   89.73  avg =   88.93
+         yolov4-tiny  min =  143.26  max =  144.64  avg =  144.00
+           nanodet_m  min =   34.72  max =   35.91  avg =   35.30
+    yolo-fastest-1.1  min =   16.74  max =   17.54  avg =   16.91
+      yolo-fastestv2  min =   14.09  max =   14.87  avg =   14.31
+Aborted
